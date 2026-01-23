@@ -90,10 +90,10 @@ app.use((req, res, next) => {
 
   if (req.query.lang) {
     currentLocale = req.query.lang;
-  } else if (cookies && cookies.locale) {
-    currentLocale = cookies.locale;
   } else if (req.getLocale()) {
     currentLocale = req.getLocale();
+  } else if (cookies && cookies.locale) {
+    currentLocale = cookies.locale;
   }
 
   try {
