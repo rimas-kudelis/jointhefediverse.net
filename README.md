@@ -99,3 +99,7 @@ npm run dev
 ```
 
 Note that there is an [open ticket](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/13) to migrate the styles to SCSS, which will also require adding a build step.
+
+### AI/LLM policy
+
+Due to [negative impact](https://stefanbohacek.com/blog/on-generative-ai/) and general unpopularity of generative AI and large language models (LLMs), contributions made using these technologies will not be accepted.
